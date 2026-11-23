@@ -2,6 +2,17 @@
 
 用 PockiGo Card 或 Open Game Box 查看电脑上的 Agent 任务、进展和回复摘要。在设备上录音并确认转写后，也可以把文字发到电脑上的「设备消息」。
 
+## 电脑和设备怎么配合
+
+```mermaid
+flowchart LR
+  A["电脑 · Agent 执行任务"] --> B["设备 · 看进展和回复"]
+  B --> C["设备 · 录音并确认转写"]
+  C --> D["电脑 · 在设备消息接收文字"]
+```
+
+例如，在电脑上让 Codex 跑一轮测试，离开工位时可以用设备查看任务是在运行、等待操作，还是已有结果。想到补充内容时，在设备上录一段话并确认转写，回到电脑后可以从「设备消息」取回这段文字，再决定是否发给 Agent。
+
 ## 下载和安装桌面端
 
 在 [GitHub Releases](https://github.com/wwwxutaibai/pockigo-downloads/releases) 打开所需版本，在 **Assets** 里选择安装包。
